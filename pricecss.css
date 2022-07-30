@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Holtwood+One+SC&display=swap');
+*{
+	padding: 0px;
+	margin: 0px;
+
+}
+
+.header
+{
+	 background-color: black;
+   position: fixed;
+	height: 100px;
+	width: 1530px;
+}
+.logo img{
+float: left;
+  width: 150px;
+  height: 100px;
+}
+
+
+ul{
+  float: right;
+  margin-top: 25px;
+}
+ul li
+{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 1px 10px;
+  border: 1px solid;
+  border-radius: 20px;
+  border-color: transparent;
+     font-family:'Cinzel', serif;
+}
+
+ul li a:hover {
+  background-color: red;
+  color: white;
+  }
+  .table
+  {
+    border-color: red;
+    width: 50px;
+  }
+
+    
+  .footer
+{
+  background-color:lightgray;
+  width: 1520px;
+}

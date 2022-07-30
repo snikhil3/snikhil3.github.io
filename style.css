@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Holtwood+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  position: absolute;
+  width: 1140px;}
+
+
+
+header {
+  
+  background-image:  url("images/bg1.jpg");
+  height: 1000px;
+  width: 1520px;
+    background-size: cover;
+   
+}
+
+ul{
+  float: right;
+  margin-top: 25px;
+}
+ul li
+{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 1px 10px;
+  border: 1px solid;
+  border-radius: 20px;
+  border-color: transparent;
+  transition: 0.6s;
+   font-family:'Cinzel', serif;
+}
+
+ul li a:hover {
+  background-color: red;
+  color: white;
+  
+}
+.logo img{
+  float: left;
+  width: 150px;
+  height: 200px;
+}
+.title h1
+{
+  font-size: 60px;
+  position: absolute;
+  top: 30%;
+  left:8%;
+  color: white;
+  font-family: 'Bungee Shade', cursive;
+
+}
+.title h2
+{
+  position: absolute;
+  top: 42%;
+  left:8%;
+  font-size: 40px;
+  color: red;
+font-family: 'Carattere', cursive;
+}
+
+.title h3 a
+{
+  position: absolute;
+  top:48%;
+  left:8%;
+  font-size: 18px;
+  border: 1px;
+  border-style:solid ;
+  border-color: red;
+  background-color: red;
+  border-radius:25px;
+  padding: 5px 10px;
+  color: white;
+  text-decoration:none;
+  
+}
+.title h3 a:hover
+{
+  color: black;
+  background-color: red;
+  text-decoration: none;
+  
+
+}
+.title h4 a
+{
+  position: absolute;
+  top:48%;
+  left:22%;
+  font-size: 18px;
+  border: 1px;
+  border-style:solid ;
+  border-color: red;
+  background-color: red;
+  border-radius:25px;
+  padding: 5px 10px;
+  color: white;
+  text-decoration:none;
+  
+}
+.title h4 a:hover
+{
+  color: black;
+  background-color: red;
+  opacity: 1px  text-decoration: none;
+}
+
+.footer
+{
+  background-color:lightgray;
+  width: 1520px;
+}
+.footer   a:hover
+{
+
+  opacity: 0.5;
+}
+
+</style>
+</head>

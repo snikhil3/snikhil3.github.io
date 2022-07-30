@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Holtwood+One+SC&display=swap');
+*{
+  padding: 0px;
+  margin: 0px;
+
+
+}
+
+.header
+{
+    background: linear-gradient(121deg, #FF0000 0%, #ff0000 100%), linear-gradient(140deg, #ff5454 27%, #223DCB 100%), linear-gradient(140deg, #4E9C51 0%, #001AFF 72%), linear-gradient(64deg, #6e00ff 0%, #0038FF 100%), radial-gradient(52% 101.79% at 50% 50%, #707300 0%, #ff0000 100%), radial-gradient(100% 100% at 70% 0%, #7A3B00 0%, #1DAC92 100%);
+background-blend-mode: overlay, overlay, difference, difference, color-burn, exclusion;;
+  height: 100px;
+  width: 1530px;
+  
+}
+.logo img{
+float: left;
+  width: 150px;
+  height: 100px;
+}
+
+
+
+ul{
+  float: right;
+  margin-top: 25px;
+}
+ul li
+{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 1px 10px;
+  border: 1px solid;
+  border-radius: 20px;
+  border-color: transparent;
+  transition: 0.6s;
+     font-family:'Cinzel', serif;
+}
+
+ul li a:hover {
+  background-color: red;
+  color: white;
+  }
+ body
+{
+  background-color: 
+  font-family: 'Uchen', serif;
+#ecece2;
+}
+
+  .pic1 img
+  {
+    position: absolute;
+    border-style:solid ;
+    border-color: red;
+    width: 500px;
+    right:5%; top: 55%;
+    border-radius: "2px";
+
+  }
+  .pic1 a img:hover
+  {
+    opacity:0.5; 
+  }
+    .pic1  p
+  
+  {
+    position: absolute;
+    width: 500px;
+    left:5%;
+    top: 45%;
+      font-family: cursive;
+    
+  }
+
+  .pic2 img
+  {
+    position: absolute;
+    border-style:solid ;
+    border-color: red;
+    width: 500px;
+    left:5%;
+    top: 55%;
+
+    border-radius: "2px";
+  }
+   .pic2 a img:hover
+  {
+    opacity:0.5; 
+  }
+  .pic2  p
+  {
+    position: absolute;
+    width: 500px;
+    right:5%;
+    top: 45%;
+    font-family: cursive;
+    
+  }
+  .pic3 img
+  {
+    position: absolute;
+    border-style:solid ;
+    border-color: red;
+    width: 500px;
+    left:5%;
+    top: 155%;
+    height: 500px;
+    border-radius: "2px";
+
+  }
+   .pic3 a img:hover
+  {
+    opacity:0.5; 
+  }
+    .pic3  p
+  {
+    position: absolute;
+    width: 500px;
+    left:5%;
+    top: 145%;
+      font-family: cursive;
+    
+  }
+  .pic4 img
+  {
+    position: absolute;
+    border-style:solid ;
+    border-color:red;
+    width: 500px;
+    right:5%;
+    top: 155%;
+    border-radius: "2px";
+  }
+  .pic4 p
+  {
+    position: absolute;
+    width: 500px;
+    right:5%;
+    top: 145%;
+    font-family: cursive;
+    
+  }
+   .pic4 a img:hover
+  {
+    opacity:0.5; 
+  }
+
+  .pic5 img
+  {
+    position: absolute;
+    border-style:solid ;
+    border-color:red;
+    width: 500px;
+    right:30%;
+    top: 255%;
+    border-radius: "2px";
+     
+
+  }
+  .pic5 p
+  {
+    position: absolute;
+    width: 500px;
+    right:20%;
+    top: 245%;
+    font-family: cursive;
+    
+  }
+   .pic5 a img:hover
+  {
+    opacity:0.5; 
+   
+   
+
+  }
+  .footer
+{
+  background-color:lightgray;
+  width: 1520px;
+  top: 350%;
+  position: absolute;
+  
+  }
+  .footer   a:hover
+{
+
+  opacity: 0.5;
+}
+  
+  

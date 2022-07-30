@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="contactcss.css">
+</head>
+
+<body bgcolor="#f5f5f5">
+<div class="header">
+	<div class="logo">
+			<img src="images/logo.png">
+			 <ul>
+	   <li><a href="index.html">HOME</a></li>
+	   <li><a href="gallary.html">GALLARY</a></li>
+	      <li><a href="location.html">LOCATION</a></li>
+	   <li><a href="about.html">ABOUT US</a></li>
+	   <li><a href="">CONTACT</b></a></li>
+	</ul></div>
+	
+		<div align="center">
+	<h1>.</h1>
+</div>
+</div>
+<br>
+<div class=table >
+<form name = "form" onsubmit = "return(validate());">
+<tr>
+ <fieldset>	
+<legend> Contact Us</legend>
+<table cellpadding="0px" cellspacing="20px">
+<tr>
+ <td>Name</td></tr>
+ <tr>
+  <td>
+<input type ="text" name="name" placeholder="Your name here"  size="20px" >
+</td>
+</tr>
+ <tr>
+<td>E-Mail</td></tr>
+<tr>
+<td>
+	<input type="text" placeholder="Your E-Mail here"name="email">
+</td>
+</tr>
+<tr>
+	<td>Mobile no.</td>
+</tr>
+<tr>
+	<td>
+		<input type="text" name="number" placeholder="Your mobile no, ">
+	<tr>
+		<td>How did you find us</td>
+	</tr>
+	<tr>
+	<td>
+
+		<select name="find" size="1">
+			<option value="Friends">Friends</option>
+			<option value="Search Engine">Search Engine</option>
+			<option value="Social Media">Social Media</option>
+			<option value="Advertisment">Advertisment</option>
+			<option value="Others">Others</option>
+		</select>
+	</td>
+</tr>
+<tr>
+	<td>
+		<tr>
+	<td>Message</td>
+</tr>
+
+
+		<tr>
+			<td>
+		<textarea rows="5" cols="50"></textarea>
+	</td>
+	<tr>
+
+</tr>
+<tr>
+	<td>
+		<input type="submit" name="submit">
+		<input type="reset" name="Cancel">
+	</td>
+</tr>
+
+
+</tr>
+</td>
+</tr>
+
+</table>
+</fieldset>
+
+
+</div>
+</tr>
+</div>
+</div>
+
+
+<div class="footer">
+	<div align="center">
+	<h2><p>Get Connected With Us</p></h2>
+	<a href="https://www.facebook.com/login/"><img src="images/fb.png" width="90px"></a>
+	<a href="https://www.instagram.com/accounts/login/"><img src="images/ig.png" width="90px"></a>
+	<a href="https://www.youtube.com/"><img src="images/utube.png" width="90px"></a>
+	<a href="mailto:someone@example.com""><img src="images/mail.png" width="90px"></a>
+	
+</p>
+</div>
+
+</body>
+</html>
+<script type="text/javascript">
+	function validate() {
+		if( document.form.name.value == "" ) {
+ 		alert( "Please enter your name" );
+ 		document.form.name.focus(); 
+ 		return false;
+}
+	
+	if( document.form.email.value == "" ) {
+	alert( "Please enter your email" );
+	document.form.email.focus(); 
+ 		return false;
+}
+if( document.form.number.value == "" ) {
+	alert( "Please enter your number" );
+	document.form.number.focus(); 
+ 		return false;
+}
+else
+{
+	alert("Form submitted sucessfully")
+}
+
+	}
+</script>

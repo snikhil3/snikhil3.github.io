@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Holtwood+One+SC&display=swap');
+*{
+  padding: 0px;
+  margin: 0px;
+
+
+}
+
+.header
+{
+    background: linear-gradient(121deg, #FF0000 0%, #ff0000 100%), linear-gradient(140deg, #ff5454 27%, #223DCB 100%), linear-gradient(140deg, #4E9C51 0%, #001AFF 72%), linear-gradient(64deg, #6e00ff 0%, #0038FF 100%), radial-gradient(52% 101.79% at 50% 50%, #707300 0%, #ff0000 100%), radial-gradient(100% 100% at 70% 0%, #7A3B00 0%, #1DAC92 100%);
+background-blend-mode: overlay, overlay, difference, difference, color-burn, exclusion;;
+  height: 100px;
+  width: 1530px;
+}
+.logo img{
+float: left;
+  width: 150px;
+  height: 100px;
+}
+
+
+ul{
+  float: right;
+  margin-top: 25px;
+}
+ul li
+{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 1px 10px;
+  border: 1px solid;
+  border-radius: 20px;
+  border-color: transparent;
+  transition: 0.6s;
+     font-family:'Cinzel', serif;
+}
+body
+{
+  background-color: 
+#ecece2;
+font-family: 'Uchen', serif;
+}
+
+ul li a:hover {
+  background-color: red;
+  color: white;
+  }
+   .g1 img
+  {
+    position: absolute;
+    border-style:solid ;
+    border-color: transparent;
+    width: 400px;
+    left:2%; top: 50%;
+   border-radius: 10px;
+   height: 300px;
+  }
+
+  
+  .g2 img
+  {
+    position: absolute;
+    border-style:solid ;
+    border-color: transparent;
+    width: 400px;
+    left:38%; top: 50%;
+    height: 300px;
+    border-radius: 10px;
+
+  }
+  
+   
+  
+  .g3 img
+  {
+    position: absolute;
+    border-style:solid ;
+    border-color: transparent;
+    width: 400px;
+    right:1%; top: 50%;
+    height: 300px;
+    border-radius: 10px;
+   }
+
+  
+  .t1
+  {
+    position: absolute;
+    font-family: serif;
+    top: 35%;
+    left: 38%;
+    border-style: dashed;
+    font-size: 40px;
+    color: red;
+  }
+
+ .g4 img
+  {
+    position: absolute;
+    border-style:solid ;
+    border-color: transparent;
+    width: 400px;
+    left:2%; top: 150%;
+    border-radius: 10px;
+    height: 300px;
+
+  }
+
+    .g5 img
+  {
+    position: absolute;
+    border-style:solid ;
+    border-color: transparent;
+    width: 400px;
+    left:38%; top: 150%;
+    height: 300px;
+    border-radius: 10px;
+
+
+   
+  }
+
+    .g6 img
+  {
+    position: absolute;
+    border-style:solid ;
+    border-color: transparent;
+    width: 400px;
+    right: 1%; top: 150%;
+    height: 300px;
+    border-radius: 10px;
+  
+  }
+ 
+  .t2
+  {
+    position: absolute;
+    font-family: serif;
+    top: 130%;
+    left: 38%;
+    border-style: dashed;
+    font-size: 40px;
+    color: red;
+  }
+  .g7 img
+  {
+    position: absolute;
+    border-style:solid ;
+    border-color: transparent;
+    width: 400px;
+    left:2%; top: 250%;
+    border-radius: 10px;
+    height: 300px;
+  }
+    .g8 img
+  {
+    position: absolute;
+    border-style:solid ;
+    border-color: transparent;
+    width: 400px;
+    left:38%; top: 250%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+    .g9 img
+  {
+    position: absolute;
+    border-style:solid ;
+    border-color: transparent;
+    width: 400px;
+    right: 1%; top: 250%;
+    height: 300px;
+    border-radius: 10px;
+  }
+
+.t3
+  {
+    position: absolute;
+    font-family: serif;
+    top: 235%;
+    left: 38%;
+    border-style: dashed;
+    font-size: 40px;
+    color: red;
+  }
+  .footer
+{
+  background-color:lightgray;
+  width: 1520px;
+  top: 320%;
+  position: absolute;
+     font-family:'Cinzel', serif;
+  
+  }
+  .footer   a:hover
+{
+
+  opacity: 0.5;
+}
